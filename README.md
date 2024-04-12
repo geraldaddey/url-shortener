@@ -8,7 +8,19 @@ A URL Shortener is a web application that allows users to shorten long URLs into
 
 - Vuejs 
 
-- PHP 
+- PHP
+
+## Installation  
+
+- git clone https://github.com/geraldaddey/url-shortener 
+- php composer.phar install 
+- php artisan key:generate
+- php artisan migrate
+- php artisan cache clean
+- php artisan serve 
+
+- npm install
+- npm run dev
 
 
 ## Author
